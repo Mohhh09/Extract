@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* width: 100%; */
+    /* background-color: black; */
+}
+.container{
+    /* display: flex; */
+    width: 80%;
+
+}
+.section1{
+    
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    background-color: #19334D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    width: 80%;
+      
+}
+
+.section3{
+    
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    background-color: #19334D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    width: 80%;
+      
+}
+.video-container {
+ position: relative;
+  /* width: 100%; */
+ 
+}
+video{
+    height: 500px;
+    width: 100%;
+
+}
+.section2{
+    background-color: #F2F2F2;
+    width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+}
+
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.play-button, .check-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.play-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.check-button {
+  background-color: #FFD700;
+  color: black;
+}
+
+.section4{
+    background-color: #F2F2F2;
+    width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  /* body {
+    background-color: #19334D;
+  } */
+  
+  .irs-banner {
+    background-color: #294673;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin: 0 auto;
+  }
+  
+  .irs-banner img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .irs-banner p {
+    margin: 0;
+    font-size: 18px;
+  }
+  .top{
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  .section6{
+    align-items: center;
+  }
+ 
+  .boxes{
+    display: flex;
+    /* padding: 50px; */
+    margin: 0 auto;
+    font-size: 20px;
+    height: 27rem;
+    width: 80%;
+
+  }
+  .box1{
+   color: white;
+    margin: 20px;
+    width: 70%;
+    background-color: #1c2e69;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .box2{
+    color: white;
+    margin: 20px;
+    width: 70%;
+    background-color: #1c2e69;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+  }
+  .box3{
+    color: white;
+    margin: 20px;
+    width: 70%;
+    background-color: #1c2e69;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+  }
+  .button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .step {
+    text-align: center;
+    border: 1px dashed #ccc;
+    padding: 20px;
+  }
+  
+  .step-icon {
+    margin-bottom: 10px;
+  }
+  
+  .step-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .step-description {
+    font-size: 14px;
+  }
+
+.content{
+    display: flex;
+}
+
+.accordion {
+    width: 100%;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
+  .disclaimer {
+    background-color: #19334D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .disclaimer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  footer {
+    background-color: #19334D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
